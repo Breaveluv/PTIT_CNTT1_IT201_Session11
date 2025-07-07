@@ -11,6 +11,7 @@ Node* insert(Node* head, int data) {
     newNode->data = data;
     if (head == NULL) {
         newNode->next = NULL;
+        newNode->pre = NULL;
         return newNode;
     }
     Node*current = head;
