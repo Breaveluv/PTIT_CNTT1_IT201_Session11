@@ -31,6 +31,7 @@ Node* insertFirst(Node* head, int data) {
         head->prev = newNode;
     }
     head = newNode;
+    return head;
 }
 void printNode(Node* head) {
     Node* current = head;
